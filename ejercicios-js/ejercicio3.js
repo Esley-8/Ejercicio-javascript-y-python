@@ -15,5 +15,5 @@ const vocalesEncontradas = Array.from(palabraAleatoria.toLowerCase())
 
 // Mostrar resultados
 console.log(" Palabra seleccionada:", palabraAleatoria);
-console.log("Vocales encontradas:", vocalesEncontradas.join(", "));
+console.log(" Vocales encontradas:", vocalesEncontradas.join(", "));
 console.log(" Total de vocales:", vocalesEncontradas.length);
