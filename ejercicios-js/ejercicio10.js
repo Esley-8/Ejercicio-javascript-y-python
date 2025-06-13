@@ -1,5 +1,5 @@
 // Función para generar una contraseña segura
-function generarContraseña(longitud = 16) {
+function generarContraseña(longitud = 18) {
   const caracteres = "abcdefghijklmnopqrstuvwxy,012345678910,zABCDEFGHIJKLMNOPQRSTUVWXYZ,109876543210";
   let resultado = "";
   for (let i = 0; i < longitud; i++) {
@@ -9,8 +9,8 @@ function generarContraseña(longitud = 16) {
   return resultado;
 }
 
-// Longitud aleatoria entre 16 y 40
-const longitud = Math.floor(Math.random() * (40 - 16 + 1)) + 16;
+// Longitud aleatoria entre 8 y 20
+const longitud = Math.floor(Math.random() * (20- 8 + 1)) + 12;
 const contraseña = generarContraseña(longitud);
 
 // Mostrar resultado con mejor formato
