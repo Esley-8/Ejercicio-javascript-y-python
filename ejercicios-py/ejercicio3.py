@@ -21,5 +21,3 @@ def main():
     print(f" Vocales únicas        : {', '.join(vocales_unicas)}")
     print(f" Total de vocales      : {len(vocales)}")
 
-
-        
