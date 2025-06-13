@@ -1,10 +1,7 @@
-#FOR VARIABLE IN (FUNCION O ELEMENTO ITERABLE): 
-    #CODIGO EJECUTABLE
-    
-numero = int (input("Introduzca un numero"))
+""" Imprime la tabla de multiplicar de un numero n"""
 
-for i in range(0, 11):
-    
-    resultado = i * numero 
-    print(numero, "X", i, "=" , resultado)
+num = int(input("Digit un numero:"))
 
+print ()
+for i in range (0,11):
+    print(f"{num} x {i} ={i*num}")
