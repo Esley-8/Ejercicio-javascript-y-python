@@ -1,6 +1,6 @@
 """ Imprime la tabla de multiplicar de un numero n"""
 
-num = int(input("Digit un numero:"))
+num = int(input("Digite un numero:"))
 
 print ()
 for i in range (0,11):
