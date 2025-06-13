@@ -1,5 +1,5 @@
 // Datos de entrada
-const numeros = [12, 5, 88, 3, 29];
+const numeros = [21, 3, 98, 63, 2, 7,134,49];
 
 // Funciones utilitarias
 const obtenerMayor = arr => Math.max(...arr);
