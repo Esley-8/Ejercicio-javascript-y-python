@@ -43,5 +43,5 @@ def main():
     else:
         print(" No se pudo determinar el mayor y el menor. Asegúrate de ingresar números válidos.")
 
-if _name_ == "_main_":
+if" _name_ " == "_main_":
     main()

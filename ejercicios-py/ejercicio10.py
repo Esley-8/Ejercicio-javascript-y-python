@@ -38,5 +38,5 @@ def main():
     print(f" Longitud: {longitud}")
     print(f" Valor   : {contrasena}")
 
-if _name_ == "_main_":
+if "-name-" == "_main_":
     main()
