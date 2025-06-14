@@ -16,8 +16,10 @@ def main():
     vocales_unicas = sorted(set(vocales), key=vocales.index)
 
     print("Análisis de Vocales en una Palabra Aleatoria")
+
     print(f" Palabra seleccionada : {palabra}")
     print(f" Vocales encontradas   : {', '.join(vocales)}")
     print(f" Vocales únicas        : {', '.join(vocales_unicas)}")
     print(f" Total de vocales      : {len(vocales)}")
 
+main ()

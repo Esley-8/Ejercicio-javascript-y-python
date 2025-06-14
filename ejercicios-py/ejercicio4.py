@@ -1,7 +1,8 @@
 """ Imprime la tabla de multiplicar de un numero n"""
 
-num = int(input("Digite un numero:"))
+n = int(input("Digite un numero:"))
 
 print ()
-for i in range (0,11):
-    print(f"{num} x {i} ={i*num}")
+for i in range (1,11):
+    print(f"{n}  * {i} ={n*i}")
+    

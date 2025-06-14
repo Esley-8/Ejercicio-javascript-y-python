@@ -29,7 +29,7 @@ def obtener_lista_numeros():
             numeros = [float(num) for num in entrada.split()]
             return numeros
         except ValueError:
-            print(" Por favor, ingresa solo números válidos.")
+            print("Por favor, ingresa solo números válidos.")
 
 def main():
     """Función principal que obtiene la lista, encuentra el mayor y el menor, y muestra los resultados."""
@@ -37,11 +37,12 @@ def main():
     mayor, menor = encontrar_mayor_y_menor(numeros)
 
     if mayor is not None and menor is not None:
-        print(f"\n🔢 Números ingresados: {numeros}")
-        print(f"🔼 Mayor: {mayor}")
-        print(f"🔽 Menor: {menor}")
+        print(f"\n Números ingresados: {numeros}")
+        print(f" Mayor: {mayor}")
+        print(f" Menor: {menor}")
     else:
-        print(" No se pudo determinar el mayor y el menor. Asegúrate de ingresar números válidos.")
+        print("No se pudo determinar el mayor y el menor. Asegúrate de ingresar números válidos.")
 
-if" _name_ " == "_main_":
-    main()
+main()
+      
+ 

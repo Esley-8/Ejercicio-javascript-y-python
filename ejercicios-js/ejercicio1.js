@@ -1,4 +1,4 @@
-// Funcion para calcular operaciones basicas
+ console.log // Funcion para calcular operaciones basicas
 function calcular(num1, num2, operacion) {
     switch (operacion) {
       case '+':

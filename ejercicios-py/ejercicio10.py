@@ -27,7 +27,7 @@ def obtener_longitud():
             else:
                 print("⚠ La longitud debe estar entre 16 y 40.")
         except ValueError:
-            print(" Por favor, ingresa un número entero válido.")
+            print("Por favor, ingresa un número entero válido.")
 
 def main():
     """Función principal que genera y muestra la contraseña."""
@@ -38,5 +38,5 @@ def main():
     print(f" Longitud: {longitud}")
     print(f" Valor   : {contrasena}")
 
-if "-name-" == "_main_":
-    main()
+
+main()

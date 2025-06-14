@@ -19,3 +19,4 @@ else:
 # Llamada a la función
 factorial = calcular_factorial(numero)
 print(f"{numero}! = {factorial}")
+
